@@ -1,7 +1,7 @@
 #middle {width: 1090px;margin: 0 auto;}
 
 /*顶部导航栏S*/
-header .top {width: auto;height: 36px;background: #333;}
+header .top {width: 100%;height: 36px;background: #333;}
 .t-middle {width: 1090px;height: 100%;margin: 0 auto;}
 .t-m-left a {line-height: 36px;color: #ccc;float: left;}
 .t-m-mid {margin-left: 20px;float: left;background: url("../images/horn.gif") center left no-repeat;overflow: hidden;}
@@ -40,7 +40,7 @@ header .logopart {width: 100%;height: 154px;}
 
 /*banner S*/
     /*轮播图图片 S*/
-.b-mid {width: 1920px;height: 420px;left: 50%;margin-left: -960px;position: relative;}
+.b-mid {width: 1920px;height: 420px;left: 50%;margin-left: -960px;position: relative;cursor: pointer;}
 .b-mid a {display: block;width: 1920px;height: 420px;position: absolute;}
 #b-img-mid li {opacity: 0;}
 #b-img-mid .current {background-color: #999;opacity: 1;}
@@ -48,6 +48,13 @@ header .logopart {width: 100%;height: 154px;}
     /*轮播图图片 E*/
     /*轮播图左右箭头 S*/
 .b-a-outer {width: 1090px;height: 420px;margin: 0 auto;position: relative;}
+@media only screen and (max-width: 1200px) {
+    .b-a-outer {display: none;}
+    .banner {width: 1090px;overflow: hidden;}
+    header .top {width: 1090px;}
+    .recommend {width: 1090px;}
+    .fixed .gif {display: none;}
+}
 .banner .arrowLA {position: absolute;top: 200px;left: -25px;}
 .banner .arrowL {width: 30px;height: 30px;background: url("../images/sprite1.png") 0 -2326px;display: inline-block;}
 .banner .arrowL:hover {width: 30px;height: 30px;background: url("../images/sprite1.png") 0 -2286px;display: inline-block;cursor: pointer;}
@@ -65,7 +72,7 @@ header .logopart {width: 100%;height: 154px;}
 
 /*品牌制造商 S*/
     /*标题文字 S*/
-.manufacturer {width: 100%;margin-top: 30px;}
+.manufacturer {width: 1090px;margin: 30px auto;}
 .manufacturer .text {padding-bottom: 20px;}
 .manufacturer .text .textLeft a {font-size: 28px;font-weight: 700;}
 .manufacturer .text .textLeft a:hover {color: #b4a078;}
@@ -109,6 +116,8 @@ header .logopart {width: 100%;height: 154px;}
 
 /*人气推荐 S*/
     /*公用*/
+.recommend {background-color: #f4f0ea;}
+.recommend .middle {width: 1090px;margin: 0 auto;}
 .recommend .img .title {display: inline-block;font-weight: 700;font-size: 14px;margin: 4px auto 3px;}
 .recommend .img .title:hover {color: #b4a078;}
 .recommend .img .label {color: #a7936e;border: 1px solid #b3a07d;display: inline-block;padding: 0 4px;border-radius: 5px;font-weight: 700;position: absolute;left: 10px;top: 10px;background-color: #fff;}
@@ -122,13 +131,13 @@ header .logopart {width: 100%;height: 154px;}
 .recommend .text .textRight a:hover {color: #b4a078;}
     /*标题文字 E*/
     /*图片 S*/
-.recommend .img .outer1 {width: 390px;height: 530px;background-color: #f4f0ea;margin-right: 10px;float: left;position: relative;text-align: center}
+.recommend .img .outer1 {width: 390px;height: 530px;background-color: #fff;margin-right: 10px;float: left;position: relative;text-align: center}
 .recommend .img .outer2,
 .recommend .img .outer3,
 .recommend .img .outer4,
 .recommend .img .outer5,
 .recommend .img .outer6,
-.recommend .img .outer7 {width: 223px;height: 260px;background-color: #f4f0ea;float: left;position:relative;text-align: center;}
+.recommend .img .outer7 {width: 223px;height: 260px;background-color: #fff;float: left;position:relative;text-align: center;}
 .recommend .img .outer2,
 .recommend .img .outer3,
 .recommend .img .outer5,
@@ -173,15 +182,12 @@ header .logopart {width: 100%;height: 154px;}
 .fixed1 {background-color: #fff;}
 .fixed2 {background-color: #aaa;}
 .fixed3 {background-color: #999;}
-.fixed4 {background-color: #888;}
-.fixed5 {background-color: #777;}
+.fixed4 {background-color: #4b7788;}
+.fixed5 {background-color: #48b1ce;}
 .fixed1 a {display: block;width: 72px;height: 82px;text-align: center;padding-top: 14px;}
 .fixed1 .img1 {display: inline-block;width: 28px;height: 29px;background: url("../images/fixed.png") 0 -297px;}
-.fixed1 p {
-    margin-top: 8px;
-    font-size: 14px;
-    line-height: 20px;
-}
+.fixed1 p {margin-top: 8px;font-size: 14px;line-height: 20px;}
+.fixed5 a {display: block;width: 72px;height: 76px;text-align: center;padding-top: 18px;font-size: 16px;color: #fff;}
 
 /*页面内容居中*/
 .inner-mid {width: 1090px;margin: 0 auto;}
