@@ -1,55 +1,58 @@
-#middle {width: 1090px;margin: 0 auto;}
-
 /*顶部导航栏S*/
 header .top {width: 100%;height: 36px;background: #333;}
-.t-middle {width: 1090px;height: 100%;margin: 0 auto;}
-.t-m-left a {line-height: 36px;color: #ccc;float: left;}
-.t-m-mid {margin-left: 20px;float: left;background: url("../images/horn.gif") center left no-repeat;overflow: hidden;}
-.t-m-mid a {height: 100%;text-decoration: underline;padding-left: 20px;line-height: 36px;color: #b4a078;}
-.t-m-right {float: right;}
-.t-m-right li {line-height: 36px;float: left;}
-.t-m-right li a {padding: 0 10px;color: #ccc;border-right: 1px solid #666;}
-.t-m-right li a:hover {color: #fff;}
-.t-m-right li a span {width: 8px;height: 11px;background: url("../images/sprite.png");display: inline-block;vertical-align: center;}
+.top .middle {width: 1090px;height: 100%;margin: 0 auto;}
+.top .middle .left a {line-height: 36px;color: #ccc;float: left;}
+.top .middle .mid {margin-left: 20px;float: left;background: url("../images/horn.gif") center left no-repeat;overflow: hidden;}
+.top .middle .mid a {height: 100%;text-decoration: underline;padding-left: 20px;line-height: 36px;color: #b4a078;}
+.top .middle .right {float: right;}
+.top .middle .right li {line-height: 36px;float: left;}
+.top .middle .right li a {padding: 0 10px;color: #ccc;border-right: 1px solid #666;}
+.top .middle .right li a:hover {color: #fff;}
+.top .middle .right li a span {width: 8px;height: 11px;background: url("../images/sprite.png");display: inline-block;vertical-align: center;}
 /*顶部导航栏E*/
 
 /*logo S*/
-header .logopart {width: 100%;height: 154px;}
-.l-mid {width: 1090px;height: 100%;margin: 0 auto;position: relative;}
-.l-m-logo {position: absolute;top: 50px;left: 455px;}
-.l-m-logo span {width: 180px;height: 60px;background: url("../images/sprite.png") 0 -146px;display: inline-block;}
-.l-m-search {float: right;position: relative;margin-top: 75px;margin-right: 5px;}
-.l-m-search input {width: 252px;height: 22px;border: 0;line-height: 1.5em;border-bottom: 1px solid #999;
-    color: #999;margin-right: 5px;left: 5px;}
-.l-m-search s {width: 20px;height: 20px;background: url("../images/sprite.png") 0 -291px;display: inline-block;
-    vertical-align: middle;cursor: pointer;}
-.l-m-car {float: right;position: relative;margin-top: 75px;}
-.l-m-car span {width: 23px;height: 23px;background: url("../images/sprite.png") 0 -113px;display: inline-block;
-    vertical-align: middle;cursor: pointer;}
-.l-m-car s {width: 19px;height: 19px;background: url("../images/sprite.png") 0 -51px;display: inline-block;position: relative;
-    top: -8px;right: 9px;color: #fff;line-height: 19px;text-align: center;text-decoration: none;}
+nav .logoPart {width: 100%;height: 154px;}
+.logoPart .mid {width: 1090px;height: 100%;margin: 0 auto;position: relative;}
+.logoPart .mid .logo {position: absolute;top: 50px;left: 455px;}
+.logoPart .mid .logo span {width: 180px;height: 60px;background: url("../images/sprite.png") 0 -146px;display: inline-block;}
+.logoPart .mid .search {float: right;position: relative;margin-top: 75px;margin-right: 5px;}
+.logoPart .mid .search input {width: 252px;height: 22px;border: 0;line-height: 1.5em;border-bottom: 1px solid #999;color: #999;margin-right: 5px;left: 5px;}
+.logoPart .mid .search s {width: 20px;height: 20px;background: url("../images/sprite.png") 0 -291px;display: inline-block;vertical-align: middle;cursor: pointer;}
+.logoPart .mid .car {float: right;position: relative;margin-top: 75px;}
+.logoPart .mid .car span {width: 23px;height: 23px;background: url("../images/sprite.png") 0 -113px;display: inline-block;vertical-align: middle;cursor: pointer;}
+.logoPart .mid .car s {width: 19px;height: 19px;background: url("../images/sprite.png") 0 -51px;display: inline-block;position: relative;top: -8px;right: 9px;color: #fff;line-height: 19px;text-align: center;text-decoration: none;}
 /*logo E*/
 
 /*nav S*/
-.n-mid {width: 1090px;height: 30px;margin: 6px auto 10px auto;}
-.n-mid li {float: left;line-height: 30px;font-weight: 700;font-size: 14px;padding: 0 24px;}
-.n-mid li a {padding-bottom: 6px;}
-.n-mid li a:hover {border-bottom: 3px solid #b4a078;color: #b4a078;}
-.n-mid li .current {border-bottom: 3px solid #b4a078;color: #b4a078;}
+.nav .mid {width: 1090px;height: 40px;margin: 6px auto 10px;}
+.nav .mid > ul > li {float: left;line-height: 30px;font-weight: 700;font-size: 14px;padding: 0 24px;position: relative;}
+.nav .mid li a {padding-bottom: 6px;}
+.nav .mid li a:hover {border-bottom: 3px solid #b4a078;color: #b4a078;}
+.nav .mid li .current {border-bottom: 3px solid #b4a078;color: #b4a078;}
+.nav .mid .separate {border-right: 1px solid #ccc;}
+.nav .mid li i {width: 23px;height: 11px;background: url("../images/arrowTop.png") -2px -129px;display: none;position: absolute;top: 30px;left: 50%;margin-left: -12px;z-index: 20}
+.nav .navData {position: absolute;top: 41px;left: -100px;z-index: 10;background-color: #fff;box-shadow: 0 0 1px 1px rgba(0, 0, 0, .1);box-sizing: border-box;padding: 0 10px;display: none;}
+.nav .navData ul {float: left;margin: 10px 0 0 30px;}
+.nav .navData ul li:first-child {width: 140px;font-size: 16px;border-bottom: 1px solid #aaa;}
+.nav .navData ul li:last-child {margin-bottom: 10px;}
+.nav .navData ul:last-child {margin-right: 30px;}
+.nav .navData ul li img {width: 50px;height: 50px;vertical-align: middle;}
+.nav .navData ul li span {margin-left: 6px;width: 84px;font-weight: 500;font-size: 14px;}
 /*nav E*/
 
 /*banner S*/
     /*轮播图图片 S*/
-.b-mid {width: 1920px;height: 420px;left: 50%;margin-left: -960px;position: relative;cursor: pointer;}
-.b-mid a {display: block;width: 1920px;height: 420px;position: absolute;}
-#b-img-mid li {opacity: 0;}
-#b-img-mid .current {background-color: #999;opacity: 1;}
-.b-mid li img {display: block;position: absolute;left: 50%;margin-left: -960px;}
+.banner .mid {width: 1920px;height: 420px;left: 50%;margin-left: -960px;position: relative;cursor: pointer;}
+.banner .mid a {display: block;width: 1920px;height: 420px;position: absolute;}
+#imgMid li {opacity: 0;}
+#imgMid .current {background-color: #999;opacity: 1;}
+#imgMid li img {display: block;position: absolute;left: 50%;margin-left: -960px;}
     /*轮播图图片 E*/
     /*轮播图左右箭头 S*/
-.b-a-outer {width: 1090px;height: 420px;margin: 0 auto;position: relative;}
+.banner .outer {width: 1090px;height: 420px;margin: 0 auto;position: relative;}
 @media only screen and (max-width: 1200px) {
-    .b-a-outer {display: none;}
+    .banner .outer {display: none;}
     .banner {width: 1090px;overflow: hidden;}
     header .top {width: 1090px;}
     .recommend {width: 1090px;}
@@ -146,7 +149,7 @@ header .logopart {width: 100%;height: 154px;}
 .recommend .img .outer6,
 .recommend .img .outer7 {margin-top: 10px;}
         /*图片1*/
-.recommend .img .img1 {width: 320px;height: 320px;display: block;background: url("../images/3/1.png") no-repeat center;z-index: -1;margin: 40px auto 0px;padding-bottom: 35px;transition: transform 1s}
+.recommend .img .img1 {width: 320px;height: 320px;display: block;background: url("../images/3/1.png") no-repeat center;z-index: -1;margin: 40px auto 0;padding-bottom: 35px;transition: transform 1s}
 .recommend .img .detail1 {border-top: 1px solid #ccc;padding-top: 18px}
 .recommend .img .detail1 .title {margin-bottom: 13px;}
 .recommend .img .detail1 .tag1 {display: inline-block;margin: 0 auto 10px;background-color: #e36844;color: #fff;padding: 0 5px;}
@@ -176,7 +179,7 @@ header .logopart {width: 100%;height: 154px;}
 /*人气推荐 E*/
 
 /*浮动窗口*/
-.fixed {position: fixed;display: block;width: 72px;height: 382px;background-color: #ccc;right: 0;top: 153px;}
+.fixed {position: fixed;display: block;width: 72px;height: 382px;background-color: #ccc;right: 0;top: 153px;z-index: 100}
 .fixed .gif {position: absolute;top: -153px;}
 .fixed1, .fixed2, .fixed3, .fixed4, .fixed5 {width: 100%;height: 20%;}
 .fixed1 {background-color: #fff;}
@@ -192,5 +195,5 @@ header .logopart {width: 100%;height: 154px;}
 /*页面内容居中*/
 .inner-mid {width: 1090px;margin: 0 auto;}
 /*伪元素清除浮动*/
-.clearfix:after{content: "";display: block;height: 0;clear: both;visibility: hidden;}
-.m-clearfix:before {content: "";display: table;}
+.clearFix:after{content: "";display: block;height: 0;clear: both;visibility: hidden;}
+.m-clearFix:before {content: "";display: table;}
